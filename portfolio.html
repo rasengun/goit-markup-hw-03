@@ -22,40 +22,54 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="container main-navigation">
         <nav class="nav">
           <a href="./index.html" class="webstudio link"
             >Web<span class="webstudio-black">Studio</span></a
           >
-          <ul class="navigation list">
-            <li><a class="navigation-title" href="./index.html">Студия</a></li>
-            <li><a class="navigation-title current" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="navigation-title" href="#">Контакты</a></li>
+          <ul class="navigation main list">
+            <li class="item"><a class="navigation-title" href="./index.html">Студия</a></li>
+            <li class="item">
+              <a class="navigation-title current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="navigation-title" href="#">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="navigation list">
-          <li>
+        <ul class="navigation adress list">
+          <li class="item">
             <a class="navigation-adress" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li><a class="navigation-adress" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a class="navigation-adress" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
     <!-- Main -->
     <main>
       <section class="portfolio">
-        <div class="container">
-          <ul class="list">
-            <li><button class="btn" type="button">Все</button></li>
-            <li><button class="btn" type="button">Веб-сайты</button></li>
-            <li><button class="btn" type="button">Приложения</button></li>
-            <li><button class="btn" type="button">Дизайн</button></li>
-            <li><button class="btn" type="button">Маркетинг</button></li>
+        <div class="container portfolio-container">
+          <ul class="portfolio-buttons list">
+            <li class="portfolio-button">
+              <button class="btn-portfolio" type="button">Все</button>
+            </li>
+            <li class="portfolio-button">
+              <button class="btn-portfolio" type="button">Веб-сайты</button>
+            </li>
+            <li class="portfolio-button">
+              <button class="btn-portfolio" type="button">Приложения</button>
+            </li>
+            <li class="portfolio-button">
+              <button class="btn-portfolio" type="button">Дизайн</button>
+            </li>
+            <li class="portfolio-button">
+              <button class="btn-portfolio" type="button">Маркетинг</button>
+            </li>
           </ul>
           <h1 class="title">Виды сделанных работ</h1>
-          <ul class="list">
-            <li>
+          <ul class="projects-list list">
+            <li class="projects-info">
               <img
                 src="./images/portfolio/portfolio1.jpg"
                 alt="компьютер"
@@ -67,7 +81,7 @@
                 <p class="text-portfolio">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img
                 src="./images/portfolio/portfolio2.jpg"
                 alt="игра в баскетбол"
@@ -79,7 +93,7 @@
                 <p class="text-portfolio">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img
                 src="./images/portfolio/portfolio3.jpg"
                 alt="Ресторан морепродуктов"
@@ -91,7 +105,7 @@
                 <p class="text-portfolio">Приложение</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img
                 src="./images/portfolio/portfolio4.jpg"
                 alt="наушники"
@@ -103,35 +117,35 @@
                 <p class="text-portfolio">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img src="./images/portfolio/portfolio5.jpg" alt="коропки" width="370" height="294" />
               <div class="portfolio-list">
                 <h2 class="title-portfolio">Проект Boxes</h2>
                 <p class="text-portfolio">Приложение</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img src="./images/portfolio/portfolio6.jpg" alt="монитор" width="370" height="294" />
               <div class="portfolio-list">
                 <h2 class="title-portfolio">Inspiration has no Borders</h2>
                 <p class="text-portfolio">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img src="./images/portfolio/portfolio7.jpg" alt="книга" width="370" height="294" />
               <div class="portfolio-list">
                 <h2 class="title-portfolio">Издание Limited Edition</h2>
                 <p class="text-portfolio">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img src="./images/portfolio/portfolio8.jpg" alt="бирка" width="370" height="294" />
               <div class="portfolio-list">
                 <h2 class="title-portfolio">Проект LAB</h2>
                 <p class="text-portfolio">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="projects-info">
               <img src="./images/portfolio/portfolio9.jpg" alt="ноутбук" width="370" height="294" />
               <div class="portfolio-list">
                 <h2 class="title-portfolio">Growing Business</h2>
@@ -146,7 +160,7 @@
     <footer>
       <div class="container footer">
         <div class="webstudio-link">
-          <a href="./index.html" class="webstudio link"
+          <a href="./index.html" class="webstudio-footer link"
             >Web<span class="webstudio-white">Studio</span></a
           >
         </div>
